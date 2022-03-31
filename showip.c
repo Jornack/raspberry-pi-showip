@@ -148,7 +148,7 @@ static void update_display(ShowIp *pPlugin)
    color.green = 255;
    color.blue = 155;
    color.red = 100;
-   lxpanel_draw_label_text_with_color(pPlugin->panel, pPlugin->gLabel, ip, TRUE, 1.3, &color);
+   lxpanel_draw_label_text_with_color(pPlugin->panel, pPlugin->gLabel, ip, TRUE, 1, &color);
    gtk_widget_set_tooltip_text(pPlugin->gLabel, which_interface);
 }
 
